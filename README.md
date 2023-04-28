@@ -33,3 +33,9 @@ In this exercise, you will implement a calculator API that serves endpoints for 
 5. Document your code with docstrings.
 6. Write tests for each method with [`pytest`](https://pytest.org)
 7. Format your code with black, isort and flake8.
+
+
+**Extra:**
+1. Install pre-commit and configure it so it runs black, flake8, isort and pytest.
+2. Write a shell script that runs your tests and formatting checks, collects the return codes and writes a report to a file.
+3. Package your app with poetry.
